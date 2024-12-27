@@ -35,6 +35,7 @@ echo "dwc2" | sudo tee -a /etc/modules
 echo "libcomposite" | sudo tee -a /etc/modules
 ```
 ```
+sudo rm -rf /home/ketsuge/splacon
 sudo git clone https://github.com/takuMIN-0104o3o/splacon.git /home/ketsuge/splacon
 ```
 
