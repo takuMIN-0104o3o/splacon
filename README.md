@@ -34,14 +34,15 @@ echo "dtoverlay=dwc2" | sudo tee -a /boot/config.txt
 echo "dwc2" | sudo tee -a /etc/modules
 echo "libcomposite" | sudo tee -a /etc/modules
 ```
-```
-sudo rm -rf /home/ketsuge/splacon
-sudo git clone https://github.com/takuMIN-0104o3o/splacon.git /home/ketsuge/splacon
-```
+
+
+
 
 
 ## ビルド方法
 ```
+sudo rm -rf /home/ketsuge/splacon
+sudo git clone https://github.com/takuMIN-0104o3o/splacon.git /home/ketsuge/splacon
 cd /home/ketsuge/splacon/
 gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall  
 ```
