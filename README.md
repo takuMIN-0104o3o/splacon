@@ -59,7 +59,7 @@ gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall
 ```
 cd /home/ketsuge/splacon/
 chmod +x load_procon.sh
-sudo S./load_procon.sh
+sudo ./load_procon.sh
 sudo ./procon.out
 
 ```
