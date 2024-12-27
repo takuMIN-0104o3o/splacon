@@ -57,7 +57,7 @@ gcc /home/ketsuge/splacon/proconcon.c -o /home/ketsuge/splacon/proconcon.out -l 
 ## 起動方法
 ```
 chmod +x /home/ketsuge/splacon/load_procon.sh
-sudo bash /home/ketsuge/splacon/load_procon.sh  
+sudo /home/ketsuge/splacon/load_procon.sh  
 sudo /home/ketsuge/splacon/proconcon.out  
 
 ```
