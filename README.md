@@ -42,7 +42,8 @@ sudo git clone https://github.com/takuMIN-0104o3o/splacon.git /home/ketsuge/spla
 
 ## ビルド方法
 ```
-gcc /home/ketsuge/splacon/proconcon.c -o /home/ketsuge/splacon/proconcon.out -l pthread -lm -O3 -Wall  
+cd /home/ketsuge/splacon/
+gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall  
 ```
 
 キーボード、マウスの選択はソースコードに記載があります。  
