@@ -33,6 +33,7 @@ USB gadgetが利用できるように設定する。
 echo "dtoverlay=dwc2" | sudo tee -a /boot/config.txt
 echo "dwc2" | sudo tee -a /etc/modules
 echo "libcomposite" | sudo tee -a /etc/modules
+sudo git clone https://github.com/takuMIN-0104o3o/splacon.git /home/ketsuge/splacon
 ```
 
 ## ビルド方法
