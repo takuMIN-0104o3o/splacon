@@ -851,7 +851,7 @@ void StickInputL(unsigned char *pAxis, unsigned char Dir)
 {
     int stopping = 0;
 
-    if ((Dir == 0) && (MouseMap.Side == 1))
+    if ((Dir == 0) && (KeyMap[KEY_L] == 1))
     {
         //Player is not pressing the L stick and Squid condition
         if (DirPrevCnt <= MOVE_STOP_TIME)
@@ -868,7 +868,7 @@ void StickInputL(unsigned char *pAxis, unsigned char Dir)
             RollKeyTick = 0;
         }
     }
-    else if ((Dir) && (MouseMap.Side == 1))
+    else if ((Dir) && (KeyMap[KEY_L] == 1))
     {
         //イカダッシュ中
         DirPrevCnt = 0;
@@ -1059,7 +1059,7 @@ void StickInputL(unsigned char *pAxis, unsigned char Dir)
     }
 
 #ifdef SQUID_ROLL_ENABLE
-    if (MouseMap.Side == 0)
+    if (KeyMap[KEY_L] == 0)
     {
         RollKeyTick = 0;
     }
@@ -1679,7 +1679,7 @@ void ProconInput(ProconData *pPad)
     }
 
 #ifdef INERTIA_CANCEL_ENABLE
-    if (MouseMap.Side)
+    if (KeyMap[KEY_L])
     {
         if (((JumpTick + DELEY_FOR_AFTER_JUMP) < InputTick) &&
             ((MainWpTick + DELEY_FOR_AFTER_MAIN_WP) < InputTick) &&
@@ -1700,7 +1700,7 @@ void ProconInput(ProconData *pPad)
         InertiaCancelCnt = 0;
     }
 #else
-    if (MouseMap.Side)
+    if (KeyMap[KEY_L])
     {
         pPad->ZL = 1;
     }
