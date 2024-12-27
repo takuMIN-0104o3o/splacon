@@ -44,6 +44,8 @@ echo "libcomposite" | sudo tee -a /etc/modules
 cd /home/
 sudo rm -rf /home/ketsuge/splacon
 sudo git clone https://github.com/takuMIN-0104o3o/splacon.git /home/ketsuge/splacon
+```
+```
 cd /home/ketsuge/splacon/
 gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall  
 ```
