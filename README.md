@@ -96,10 +96,11 @@ sudo ./proconcon.out
 | 9             |               | Mouse Lの単射、連射入れ替え                        | 
 | WASD          | Stick L       |                                                   | 
 | SHIFT L       |               | Move slowly with SHIFT L + WASD                   | 
-| SPACE         | B             |                                                   |
-| E             | A             |                                                   | 
-| R             | X             |                                                   | 
-| F             | Hat Up        |                                                   | 
+| SPACE         | B             |  
+| CTRL L        | ZL            | |
+| F             | A             |                                                   | 
+| ALT L         | X             |                                                   | 
+| T             | Hat Up        |                                                   | 
 | C             | Hat Down      |                                                   | 
 | T             | L             |                                                   | 
 | Y             | R             |                                                   | 
@@ -108,7 +109,7 @@ sudo ./proconcon.out
 | U             | Stick L Push  |                                                   | 
 | I             | Stick R Push  |                                                   | 
 | L             |               | Tesla menu open                                   | 
-| Z             |               | Super jump to respawn point                     | 
+| R             |               | Super jump to respawn point                     | 
 | Num2          | Hat Down      |                                                   | 
 | Num4          | Hat Left      |                                                   | 
 | Num6          | Hat Right     |                                                   | 
@@ -122,8 +123,8 @@ sudo ./proconcon.out
 | F10           |               | Y following-0.1 デバッグ用                       | 
 | Mouse R       | R             |                                                   | 
 | Mouse L       | ZR            |                                                   | 
-| Mouse Side    | ZL            |                                                   | 
-| Mouse Extra   | ZR            | Rapid Fire                                       | 
+| Mouse Side    | Hat Down      |                                                   | 
+| Mouse Extra   | ZR            | Rapid Fire                                        | 
 | Mouse Wheel   | Stick R Push  |                                                   | 
 | Mouse Middle  | Stick R Push  |                                                   | 
 | Mouse move    | Gyro          |                                                   | 
