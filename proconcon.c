@@ -1,4 +1,4 @@
-﻿/*
+/*
 スプラトゥーン3 マウスコンバーター for RaspberryPi 4b
 2022/08/28 ぬこいばらき（unvirus）
 
@@ -2075,4 +2075,3 @@ EXIT:
     printf("Procon Converter exit.\n");
     return 0;
 }
-
