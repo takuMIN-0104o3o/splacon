@@ -31,8 +31,10 @@ POE+HATとPOE対応LAN HUBで電源供給がよいでしょう。
 USB gadgetが利用できるように設定する。  
   
 ## ビルド方法
+```
 gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall  
-  
+```
+
 キーボード、マウスの選択はソースコードに記載があります。  
 各自のデバイス名に合わせてください。  
   
@@ -43,9 +45,11 @@ gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall
 ![IMG_E1374](https://user-images.githubusercontent.com/83897755/204125349-ef4d7021-fbfd-4df3-9745-1a1058430d0c.jpg)
   
 ## 起動方法
+```
 sudo ./load_procon.sh  
 sudo ./proconcon.out  
 chmod +x load_procon.sh
+```
 
 **proconcon.outと同じ場所にflashrom.binを配置してください。**  
 **flashrom.binはコントローラーの設定ファイルで、proconcon.out起動時に利用します。** 
