@@ -41,6 +41,7 @@ echo "libcomposite" | sudo tee -a /etc/modules
 
 ## ビルド方法
 ```
+cd /home/
 sudo rm -rf /home/ketsuge/splacon
 sudo git clone https://github.com/takuMIN-0104o3o/splacon.git /home/ketsuge/splacon
 cd /home/ketsuge/splacon/
