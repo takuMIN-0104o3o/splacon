@@ -28,8 +28,13 @@ POE+HATとPOE対応LAN HUBで電源供給がよいでしょう。
 ラズベリーパイ 4Bの初期版はUSB回路に不具合があり、USBを利用しながら給電ができないものがあります。  
     
 ## ラズベリーパイの準備
-USB gadgetが利用できるように設定する。  
-  
+```
+USB gadgetが利用できるように設定する。    
+echo "dtoverlay=dwc2" | sudo tee -a /boot/config.txt
+echo "dwc2" | sudo tee -a /etc/modules
+echo "libcomposite" | sudo tee -a /etc/modules
+```
+
 ## ビルド方法
 ```
 gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall  
@@ -46,9 +51,10 @@ gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall
   
 ## 起動方法
 ```
-sudo ./load_procon.sh  
-sudo ./proconcon.out  
 chmod +x load_procon.sh
+sudo bash ./load_procon.sh  
+sudo ./proconcon.out  
+
 ```
 
 **proconcon.outと同じ場所にflashrom.binを配置してください。**  
