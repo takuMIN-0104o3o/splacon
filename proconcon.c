@@ -127,7 +127,7 @@ usb-Topre_Corporation_Realforce_108-event-kbd
 */
 //#define KEYBOARD_NAME       "Topre_Corporation_Realforce_108"
 //#define KEYBOARD_NAME       "usb-SIGMACHIP_USB_Keyboard"
-#define KEYBOARD_NAME     "usb-ELECOM_Gaming_Keyboard_ELECOM_Gaming_Keyboard",  "usb-Logitech_Gaming_Mouse_G402"
+#define KEYBOARD_NAME     "usb-ELECOM_Gaming_Keyboard_ELECOM_Gaming_Keyboard"
 
 //#define MOUSE_NAME          "Logitech_G403_Prodigy_Gaming_Mouse"
 #define MOUSE_NAME          "usb-Logitech_Gaming_Mouse_G402"
