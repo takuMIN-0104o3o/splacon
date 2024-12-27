@@ -55,9 +55,9 @@ gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall
   
 ## 起動方法
 ```
-chmod +x load_procon.sh
-sudo bash ./load_procon.sh  
-sudo ./proconcon.out  
+chmod +x /home/ketsuge/splacon/load_procon.sh
+sudo bash /home/ketsuge/splacon/load_procon.sh  
+sudo /home/ketsuge/splacon/proconcon.out  
 
 ```
 
