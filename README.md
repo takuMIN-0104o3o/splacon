@@ -45,6 +45,7 @@ gcc proconcon.c -o proconcon.out -l pthread -lm -O3 -Wall
 ## 起動方法
 sudo ./load_procon.sh  
 sudo ./proconcon.out  
+chmod +x load_procon.sh
 
 **proconcon.outと同じ場所にflashrom.binを配置してください。**  
 **flashrom.binはコントローラーの設定ファイルで、proconcon.out起動時に利用します。** 
